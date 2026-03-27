@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/fondo_login"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/logo_farmacia" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:elevation="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etUsuario"
+                android:hint="Usuario"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Spinner
+                android:id="@+id/spRol"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:text="Ingresar"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FCA311"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tvRegistrar"
+                android:text="Registrarse"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

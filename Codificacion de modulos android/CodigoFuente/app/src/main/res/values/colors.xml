@@ -1,0 +1,9 @@
+<resources>
+
+    <color name="azul_oscuro">#0D1B2A</color>
+    <color name="azul_secundario">#1B263B</color>
+    <color name="amarillo">#FCA311</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="transparente">#80FFFFFF</color>
+
+</resources>
